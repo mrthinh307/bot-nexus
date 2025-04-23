@@ -1,6 +1,4 @@
 // TYPED JS
-console.log("aloi");
-
 var typed = new Typed('#text', {
     strings: [
         'NFTs',
@@ -181,16 +179,16 @@ const observer = new IntersectionObserver((entries) => {
 
 sections.forEach(section => observer.observe(section));
 
-let lastScrollY = window.scrollY;
-const navbar = document.querySelector("nav");
+// let lastScrollY = window.scrollY;
+// const navbar = document.querySelector("nav");
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > lastScrollY) {
-        navbar.classList.add("hidden");
-    } else {
-        navbar.classList.remove("hidden");
-    }
-    lastScrollY = window.scrollY;
-});
+// window.addEventListener("scroll", () => {
+//     if (window.scrollY > lastScrollY) {
+//         navbar.classList.add("hidden");
+//     } else {
+//         navbar.classList.remove("hidden");
+//     }
+//     lastScrollY = window.scrollY;
+// });
 
 

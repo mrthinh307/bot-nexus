@@ -4,42 +4,32 @@
 
 @font-face {
     font-family: 'Conthrax-bold';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ Bold.otf);
+    src: url("/assests/Conthrax-Font/Conthrax Bold.otf");
 }
 
 @font-face {
     font-family: 'Conthrax-regular';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ Regular.otf);
+    src: url("/assests/Conthrax-Font/Conthrax Regular.otf");
 }
 
 @font-face {
     font-family: 'Conthrax-light';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ Light.otf);
-}
-
-@font-face {
-    font-family: 'Conthrax-thin';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ Thin.otf);
+    src: url("/assests/Conthrax-Font/Conthrax Light.otf");
 }
 
 @font-face {
     font-family: 'Conthrax-extralight';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ ExtraLight.otf);
-}
-
-@font-face {
-    font-family: 'Conthrax-extrabold';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ ExtraBold.otf);
+    src: url("/assests/Conthrax-Font/Conthrax ExtraLight.otf");
 }
 
 @font-face {
     font-family: 'Conthrax-semi-bold';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ SemiBold.otf);
+    src: url(/assests/Conthrax-Font/Conthrax\ SemiBold.otf);
 }
 
 @font-face {
     font-family: 'Conthrax-heavy';
-    src: url(/nft-marketplace/assests/Conthrax-Font/Conthrax\ Heavy.otf);
+    src: url(/assests/Conthrax-Font/Conthrax\ Heavy.otf);
 }
 
 * {

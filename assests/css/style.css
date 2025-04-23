@@ -1,5 +1,4 @@
 /* NAVBAR */
-
 nav {
     width: 100%;
     height: 100px;
@@ -175,7 +174,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 5% 12%;
-    margin-top: 7%;
+    /* margin-top: 7%; */
     position: relative;
     z-index: 5;
 }
@@ -203,7 +202,7 @@ header {
 
 .hero_content h1 {
     width: 100%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 4rem;
     font-weight: 600;
     font-family: Conthrax-bold;
@@ -1771,7 +1770,6 @@ header {
 
 @media (max-width: 768px) {
 
-
     .headings h1,
     .hero_content h1,
     .letter_container .headings h1 {
@@ -1788,6 +1786,10 @@ header {
 
     section {
         padding: 5% 10%;
+    }
+
+    .bg_shape {
+        width: 100%;
     }
 
     .img_box2 {
@@ -1829,16 +1831,24 @@ header {
 }
 
 @media (max-width: 576px) {
+    body {
+        width: 100vw !important;
+    }
 
     .hero_content h1,
     .headings h1 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         line-height: 3rem;
+    }
+
+    .hero_content h1 {
+        padding-right: 50px;
     }
 
     nav,
     header,
     section {
+        width: 100% !important;
         padding: 10% 5%;
     }
 
@@ -2030,7 +2040,7 @@ header {
     transform: translateY(0);
 }
 
-nav {
+/* nav {
     position: fixed;
     top: 0;
     width: 100%;
@@ -2039,5 +2049,5 @@ nav {
 }
 
 nav.hidden {
-    top: -100px; /* Ẩn navbar khi cuộn xuống */
-}
+    top: -100px; 
+} */
